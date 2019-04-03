@@ -1,0 +1,24 @@
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.exe.config
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.exe
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.pdb
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.xml
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbprojAssemblyReference.cache
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher_Endora.Form1.resources
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher_Endora.Resources.resources
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbproj.GenerateResource.cache
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.exe
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.xml
+C:\Users\admin\Desktop\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.pdb
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.exe.config
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.exe
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.pdb
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\bin\Debug\Launcher Endora.xml
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbprojAssemblyReference.cache
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher_Endora.Form1.resources
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher_Endora.Resources.resources
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbproj.GenerateResource.cache
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.vbproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.exe
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.xml
+C:\Users\admin\Desktop\Programmation\Launcher\Launcher\Launcher Endora\Launcher Endora\obj\Debug\Launcher Endora.pdb
