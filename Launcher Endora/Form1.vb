@@ -3,8 +3,11 @@ Imports Microsoft.Win32
 Imports System
 Imports System.IO
 Imports System.Text
+Imports System.Threading
 Imports System.Xml
 Imports System.Xml.Serialization
+Imports System.Net.WebClient
+Imports System.Net
 
 Public Class Form1
     Private Shared Picture As Object
@@ -12,6 +15,9 @@ Public Class Form1
     Private this As Object
     Dim ip As String = "149.202.41.210"
     Dim port As String = "30210"
+    Public Property UpdateButton As Object
+    Public Property FinalButon As Object
+    Public Property PlayDirectory As String
 
     Private Sub Unrar(ByVal filepath As String, ByVal WorkingDir As String)
         Dim ObjRegKey As RegistryKey
@@ -84,9 +90,29 @@ Public Class Form1
 
     Private Sub FlatButton1_Click(sender As Object, e As EventArgs) Handles FlatButton1.Click
         If My.Computer.FileSystem.FileExists(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) & "\LauncherEndora\directory.a3") Then
+            Dim url As String = "Lien de download de votre dlc perso"
+            Dim client As New WebClient()
 
+            If Not String.IsNullOrEmpty(url) Then
+                UpdateButton.Visible = False
+                FinalButon.Visible = True
+                If File.Exists((PlayDirectory + ("/update/x64/dlcpacks/patchday15ng/" + "dlc.rpf"))) Then
+                    System.IO.File.Move((PlayDirectory + ("/update/x64/dlcpacks/patchday15ng/" + "dlc.rpf")), (PlayDirectory + ("/update/x64/dlcpacks/patchday15ng/" + "backup_dlc.rpf")))
+                    Dim uri As Uri = New Uri(url)
+                    Dim filename As String = System.IO.Path.GetFileName(uri.AbsolutePath)
+                    client.DownloadFileAsync(uri, (PlayDirectory + ("/update/x64/dlcpacks/patchday15ng/" + filename)))
+                    'Warning!!! Lambda constructs are not supported
+                    UpdateClient()
+                Else
+                    Dim uri As Uri = New Uri(url)
+                    Dim filename As String = System.IO.Path.GetFileName(uri.AbsolutePath)
+                    client.DownloadFileAsync(uri, (PlayDirectory + ("/update/x64/dlcpacks/patchday15ng/" + filename)))
+                    'Warning!!! Lambda constructs are not supported
+                    UpdateClient()
+                End If
+            End If
         Else
-            MsgBox("Vous devez spécifier le chemin d'accès de FiveM", MsgBoxStyle.Exclamation, "Erreur")
+            MsgBox("Vous devez spécifier le chemin d'accès de Fivem", MsgBoxStyle.Exclamation, "Erreur")
             SetA3Directory()
         End If
     End Sub
@@ -151,3 +177,5 @@ Public Class Form1
         Process.Start("https://discord.gg/7RXm2Tz")
     End Sub
 End Class
+
+
